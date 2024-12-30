@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D294A6602D2305690017F8DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D294A6472D2305680017F8DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D294A64E2D2305680017F8DA;
+			remoteInfo = "gift-for-girlfriend";
+		};
+		D294A66A2D2305690017F8DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D294A6472D2305680017F8DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D294A64E2D2305680017F8DA;
+			remoteInfo = "gift-for-girlfriend";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D294A64F2D2305680017F8DA /* gift-for-girlfriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gift-for-girlfriend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D294A65F2D2305690017F8DA /* gift-for-girlfriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gift-for-girlfriendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D294A6692D2305690017F8DA /* gift-for-girlfriendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gift-for-girlfriendUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D294A6512D2305680017F8DA /* gift-for-girlfriend */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "gift-for-girlfriend";
+			sourceTree = "<group>";
+		};
+		D294A6622D2305690017F8DA /* gift-for-girlfriendTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "gift-for-girlfriendTests";
+			sourceTree = "<group>";
+		};
+		D294A66C2D2305690017F8DA /* gift-for-girlfriendUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "gift-for-girlfriendUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D294A64C2D2305680017F8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D294A65C2D2305690017F8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D294A6662D2305690017F8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D294A6462D2305680017F8DA = {
+			isa = PBXGroup;
+			children = (
+				D294A6512D2305680017F8DA /* gift-for-girlfriend */,
+				D294A6622D2305690017F8DA /* gift-for-girlfriendTests */,
+				D294A66C2D2305690017F8DA /* gift-for-girlfriendUITests */,
+				D294A6502D2305680017F8DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D294A6502D2305680017F8DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D294A64F2D2305680017F8DA /* gift-for-girlfriend.app */,
+				D294A65F2D2305690017F8DA /* gift-for-girlfriendTests.xctest */,
+				D294A6692D2305690017F8DA /* gift-for-girlfriendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D294A64E2D2305680017F8DA /* gift-for-girlfriend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D294A6732D2305690017F8DA /* Build configuration list for PBXNativeTarget "gift-for-girlfriend" */;
+			buildPhases = (
+				D294A64B2D2305680017F8DA /* Sources */,
+				D294A64C2D2305680017F8DA /* Frameworks */,
+				D294A64D2D2305680017F8DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D294A6512D2305680017F8DA /* gift-for-girlfriend */,
+			);
+			name = "gift-for-girlfriend";
+			packageProductDependencies = (
+			);
+			productName = "gift-for-girlfriend";
+			productReference = D294A64F2D2305680017F8DA /* gift-for-girlfriend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D294A65E2D2305690017F8DA /* gift-for-girlfriendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D294A6762D2305690017F8DA /* Build configuration list for PBXNativeTarget "gift-for-girlfriendTests" */;
+			buildPhases = (
+				D294A65B2D2305690017F8DA /* Sources */,
+				D294A65C2D2305690017F8DA /* Frameworks */,
+				D294A65D2D2305690017F8DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D294A6612D2305690017F8DA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D294A6622D2305690017F8DA /* gift-for-girlfriendTests */,
+			);
+			name = "gift-for-girlfriendTests";
+			packageProductDependencies = (
+			);
+			productName = "gift-for-girlfriendTests";
+			productReference = D294A65F2D2305690017F8DA /* gift-for-girlfriendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D294A6682D2305690017F8DA /* gift-for-girlfriendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D294A6792D2305690017F8DA /* Build configuration list for PBXNativeTarget "gift-for-girlfriendUITests" */;
+			buildPhases = (
+				D294A6652D2305690017F8DA /* Sources */,
+				D294A6662D2305690017F8DA /* Frameworks */,
+				D294A6672D2305690017F8DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D294A66B2D2305690017F8DA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D294A66C2D2305690017F8DA /* gift-for-girlfriendUITests */,
+			);
+			name = "gift-for-girlfriendUITests";
+			packageProductDependencies = (
+			);
+			productName = "gift-for-girlfriendUITests";
+			productReference = D294A6692D2305690017F8DA /* gift-for-girlfriendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D294A6472D2305680017F8DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D294A64E2D2305680017F8DA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D294A65E2D2305690017F8DA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D294A64E2D2305680017F8DA;
+					};
+					D294A6682D2305690017F8DA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D294A64E2D2305680017F8DA;
+					};
+				};
+			};
+			buildConfigurationList = D294A64A2D2305680017F8DA /* Build configuration list for PBXProject "gift-for-girlfriend" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D294A6462D2305680017F8DA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D294A6502D2305680017F8DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D294A64E2D2305680017F8DA /* gift-for-girlfriend */,
+				D294A65E2D2305690017F8DA /* gift-for-girlfriendTests */,
+				D294A6682D2305690017F8DA /* gift-for-girlfriendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D294A64D2D2305680017F8DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D294A65D2D2305690017F8DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D294A6672D2305690017F8DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D294A64B2D2305680017F8DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D294A65B2D2305690017F8DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D294A6652D2305690017F8DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D294A6612D2305690017F8DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D294A64E2D2305680017F8DA /* gift-for-girlfriend */;
+			targetProxy = D294A6602D2305690017F8DA /* PBXContainerItemProxy */;
+		};
+		D294A66B2D2305690017F8DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D294A64E2D2305680017F8DA /* gift-for-girlfriend */;
+			targetProxy = D294A66A2D2305690017F8DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D294A6712D2305690017F8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D294A6722D2305690017F8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D294A6742D2305690017F8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gift-for-girlfriend/Preview Content\"";
+				DEVELOPMENT_TEAM = N95V686XJ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "thinkmagic.gift-for-girlfriend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D294A6752D2305690017F8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gift-for-girlfriend/Preview Content\"";
+				DEVELOPMENT_TEAM = N95V686XJ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "thinkmagic.gift-for-girlfriend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D294A6772D2305690017F8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N95V686XJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "thinkmagic.gift-for-girlfriendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gift-for-girlfriend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gift-for-girlfriend";
+			};
+			name = Debug;
+		};
+		D294A6782D2305690017F8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N95V686XJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "thinkmagic.gift-for-girlfriendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gift-for-girlfriend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gift-for-girlfriend";
+			};
+			name = Release;
+		};
+		D294A67A2D2305690017F8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N95V686XJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "thinkmagic.gift-for-girlfriendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gift-for-girlfriend";
+			};
+			name = Debug;
+		};
+		D294A67B2D2305690017F8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N95V686XJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "thinkmagic.gift-for-girlfriendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gift-for-girlfriend";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D294A64A2D2305680017F8DA /* Build configuration list for PBXProject "gift-for-girlfriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D294A6712D2305690017F8DA /* Debug */,
+				D294A6722D2305690017F8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D294A6732D2305690017F8DA /* Build configuration list for PBXNativeTarget "gift-for-girlfriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D294A6742D2305690017F8DA /* Debug */,
+				D294A6752D2305690017F8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D294A6762D2305690017F8DA /* Build configuration list for PBXNativeTarget "gift-for-girlfriendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D294A6772D2305690017F8DA /* Debug */,
+				D294A6782D2305690017F8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D294A6792D2305690017F8DA /* Build configuration list for PBXNativeTarget "gift-for-girlfriendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D294A67A2D2305690017F8DA /* Debug */,
+				D294A67B2D2305690017F8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D294A6472D2305680017F8DA /* Project object */;
+}
