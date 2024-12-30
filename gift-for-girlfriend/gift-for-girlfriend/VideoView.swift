@@ -49,11 +49,12 @@ struct VideoView: View {
         }
         .background(Color.black)
         .edgesIgnoringSafeArea(.all)
+        .statusBar(hidden: true)
         .onAppear {
             // 通知 ContentView 暂停背景音乐
             NotificationCenter.default.post(name: NSNotification.Name("PauseBackgroundMusic"), object: nil)
-            // 使用 IMG_1489 视频文件
-            if let videoURL = Bundle.main.url(forResource: "IMG_1489", withExtension: "MOV") {
+            // 使用视频文件
+            if let videoURL = Bundle.main.url(forResource: "love_moive_2_row", withExtension: "mp4") {
                 // 创建 AVPlayerItem 时设置视频属性
                 let asset = AVAsset(url: videoURL)
                 let playerItem = AVPlayerItem(asset: asset)
